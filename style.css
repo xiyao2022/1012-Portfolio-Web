@@ -1,0 +1,338 @@
+
+body {
+    margin:0;
+    align-items:'center';
+    font-family: 'Montserrat', sans-serif;
+    background-color: #080808;
+    
+    
+}
+
+h1 {
+    align-self: 'center';
+    font-family: 'Sacramento', cursive;
+    font-size: 88px;
+    font-weight: 700;
+    color:#FFDDEE;
+}
+.place-visted {
+    position:relative;
+
+}
+
+.text-for-other-places {
+    position: absolute;
+    top: 33px;  
+    left: 55px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #388bbb;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-for-places {
+    position: absolute;
+    top: 33px;  
+    right: 55px;
+    font-size: 50px;
+    font-weight: 600;
+    color:#fff9f9;
+    width: 45%;
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+    margin: 88px;
+    text-align:center;
+    padding: 66px;
+}
+
+p {
+    color:#FFDDEE;
+    font-size: 33px;
+    line-height: 2;
+}
+
+.mytitle {
+    margin: 22px 28px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.myNavbarStyle {
+   /* position:fixed; */
+   background-color:#080808;
+}
+
+
+
+a {
+    text-decoration: none;
+    justify-content: space-between;
+    margin-right: 10px;
+    
+}
+.brandfont {
+    font-weight: 800;
+    background: #FFDDEE;
+    background: linear-gradient(to right, #FFDDEE 0%, #A8C8A8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    margin:28px;
+    font-family: 'Jua', sans-serif;
+}
+.tabfont {
+    font-weight: 600;
+    color:#FFDDEE;
+    font-size: large;
+}
+
+.form {
+    margin: 123px 28px;
+}
+
+.labelStyle {
+    color:#FFDDEE;
+    font-size: 22px;
+    margin: 38px 18px 28px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.inputStyle {
+    margin: 28px 16px;
+    border-radius: 5px;
+}
+
+.submitButton {
+    margin: 38px;
+    border-radius: 55px;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: #FFDDEE;
+    
+}
+
+.contactmeTitle {
+    margin: 38px 18px ;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 48px;
+    font-weight: 400;
+    color:#FFDDEE;
+}
+
+.emailicon, .phoneicon {
+    width: 58px;
+    margin: 28px;
+}
+
+.addressicon {
+    width: 58px;
+    margin: 0 28px;
+}
+
+.contactmeInfo {
+    font-family: 'Montserrat', sans-serif;
+    color:#FFDDEE;
+    font-size: 28px;
+    display: inline-block;
+    
+    margin-bottom: 38px;
+}
+
+.addressInfo {
+    margin-top: 55px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color:#FFDDEE;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.footerIconGroup {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footerIcon {
+    margin: 36px ; 
+    text-align:center; 
+    width: 33px;
+    
+}
+
+.footerText {
+    text-align: center;
+    margin: 68px;
+
+    font-size: 16px;
+}
+
+.projectsTitle {
+    font-family: 'Jua', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    margin: 55px 28px 38px 28px;
+    display: inline-block;
+}
+.projectIcon {
+    width: 68px;
+    margin-top: 22px;
+}
+.projectTitleAndIcon {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+
+.mockup1, .mockup2 {
+    margin: 38px 58px;
+    width: 68%;
+}
+
+.productName {
+    color:#FFDDEE;
+    font-weight: 600;
+    margin:38px;
+    font-family: 'Mali', cursive;
+    font-size: 48px;
+}
+
+.productDescription {
+    font-size: 28px;
+    color:#FFDDEE;
+    line-height: 1.5;
+    width: 55%;
+    margin: 38px;
+}
+.productFeatures {
+    font-size: 22px;
+    color:#d888a8;
+    font-family: 'Montserrat', sans-serif;
+    margin: 38px;
+    width: 88%;
+}
+.role {
+    font-size: 22px;
+    color:#c45678;
+    font-family: 'Montserrat', sans-serif;
+    margin: 38px;
+    width: 88%;
+}
+
+.appLogo1 {
+    margin: 36px 8px;
+    width:8%;
+}
+.appLogo2 {
+    margin: 36px 8px;
+    width:12%;
+}
+.nameAndLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.introTitle {
+    font-family: 'Jua', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    margin: 38px 28px;
+}
+
+.profilePicStyle {
+    
+    width: 68%;
+    margin:28px;  
+    /* float:left;  */
+}
+
+.educationTitle, .work-experience {
+    text-align: center;
+    font-family: 'Jua', sans-serif;
+    font-size: 38px;
+    color:#FFDDEE;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+
+/* .educationRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+    padding: 8px;
+    height: 88px; 
+} */
+.hr {
+    border: dotted;
+    border-bottom: none;
+    width:18%;
+    text-align: center;
+    margin:68px auto;
+    color:#A8C8A8;
+    border-width:8px;
+   
+}
+
+.school, .company {
+    font-size: 26px;
+    color:#e8c8d8;
+    
+    margin: 38px 28px;
+}
+
+.degree, .jobTitle {
+    font-size: 26px;
+    color:#aa668a;
+    
+    width: 88%;
+    margin-left: 28px;
+}
+
+.date, .workterm{
+    font-size: 26px;
+    color:#833363;
+    margin-bottom: 38px;
+    margin-left: 28px;
+}
+
+.meAndSodaRain, p.enjoyWorkingOn, p.workInProgress, p.workWithTeam, .jobduty{
+    font-size: 22px;
+    color:#FFDDEE;
+    line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+    margin: 38px;
+    width: 68%;
+}
+
+.introGreeting {
+    font-size: 28px;
+    color:#FFDDEE;
+    font-weight: 500;
+    font-family: 'Jua', sans-serif;
+    width: 88%;
+    margin: 38px;
+}
+
+h2.enjoyWorkingOn, h2.workInProgress, h2.workWithTeam{
+    font-size: 25px;
+    color:#FFDDEE;
+    font-weight: 500;
+    font-family: 'Jua', sans-serif;
+    width: 88%;
+    margin: 45px 36px;
+}
+.moreProj {
+    font-size: 22px;
+    color:#FFDDEE;
+    /* font-weight: 400; */
+    font-family: 'Jua', sans-serif;
+    text-align: center;
+    margin: 38px 28px 88px 28px;
+}
